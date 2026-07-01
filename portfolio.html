@@ -32,12 +32,12 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background: var(--gold-glow);
+            background: var(--accent-glow);
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 1.8rem;
-            color: var(--gold);
+            color: var(--accent);
             flex-shrink: 0;
         }
         .service-portfolio-header .service-title-group h3 {
@@ -59,7 +59,7 @@
         .portfolio-sample-item {
             border-radius: var(--radius-md);
             overflow: hidden;
-            background: var(--navy);
+            background: var(--primary);
             border: 1px solid rgba(255, 255, 255, 0.04);
             aspect-ratio: 4/3;
             display: flex;
@@ -87,7 +87,7 @@
         .portfolio-sample-item .overlay {
             position: relative;
             z-index: 2;
-            background: rgba(10, 22, 40, 0.6);
+            background: rgba(46, 15, 71, 0.6);
             width: 100%;
             height: 100%;
             display: flex;
@@ -98,7 +98,7 @@
         }
         .portfolio-sample-item .overlay i {
             font-size: 2.5rem;
-            color: var(--gold);
+            color: var(--accent);
             margin-bottom: 0.5rem;
         }
         .portfolio-sample-item .overlay h4 {
@@ -117,8 +117,8 @@
             justify-content: center;
         }
         .portfolio-sample-item .overlay .tags span {
-            background: var(--gold-glow);
-            color: var(--gold);
+            background: var(--accent-glow);
+            color: var(--accent);
             padding: 0.15rem 0.8rem;
             border-radius: 20px;
             font-size: 0.6rem;
@@ -148,7 +148,7 @@
             padding-bottom: 56.25%;
             height: 0;
             overflow: hidden;
-            background: var(--navy-light);
+            background: var(--primary-light);
         }
         .video-sample-item .video-wrapper iframe {
             position: absolute;
@@ -192,7 +192,7 @@
         }
         .audio-sample-item i {
             font-size: 2.5rem;
-            color: var(--gold);
+            color: var(--accent);
             margin-bottom: 0.5rem;
             display: block;
         }
@@ -212,16 +212,16 @@
         .audio-sample-item .audio-player audio {
             width: 100%;
             border-radius: 30px;
-            background: var(--navy);
+            background: var(--primary);
         }
         .audio-sample-item .audio-player audio::-webkit-media-controls-panel {
-            background: var(--navy-light);
+            background: var(--primary-light);
         }
 
         /* ===== CASE STUDY ===== */
         .case-study-section {
             margin-top: 4rem;
-            background: var(--navy-light);
+            background: var(--primary-light);
             padding: 3rem;
             border-radius: 24px;
         }
@@ -232,7 +232,7 @@
             align-items: center;
         }
         .case-study-stats {
-            background: var(--navy);
+            background: var(--primary);
             border-radius: 16px;
             padding: 3rem;
             text-align: center;
@@ -240,7 +240,7 @@
         }
         .case-study-stats i {
             font-size: 4rem;
-            color: var(--gold);
+            color: var(--accent);
         }
         .case-study-stats h4 {
             color: var(--white);
@@ -250,7 +250,7 @@
             color: var(--gray);
         }
         .case-study-content h4 {
-            color: var(--gold);
+            color: var(--accent);
             margin-bottom: 1rem;
         }
         .case-study-content p {
@@ -273,7 +273,7 @@
             content: '▸';
             position: absolute;
             left: 0;
-            color: var(--gold);
+            color: var(--accent);
         }
 
         @media (max-width: 1024px) {
@@ -318,7 +318,7 @@
     <header id="header">
         <div class="container nav">
             <div class="logo">
-                <span class="white">Christabel</span><span class="gold">Israel</span>
+                <span class="white">Christabel</span><span class="accent">Israel</span>
             </div>
             <ul class="nav-links" id="navLinks">
                 <li><a href="index.html">Home</a></li>
@@ -339,7 +339,7 @@
     <section class="portfolio-page" style="padding: 8rem 0 5rem; min-height: 80vh;">
         <div class="container">
             <div class="section-title">
-                <h2>Our <span class="gold">Portfolio</span></h2>
+                <h2>Our <span class="accent">Portfolio</span></h2>
                 <p>Real work, real results — samples from each of our services.</p>
             </div>
 
@@ -354,34 +354,75 @@
                 </div>
                 <div class="portfolio-sample-grid">
                     <div class="portfolio-sample-item">
-                        <img src="img/Social media 2.jpeg" alt="Profile Setup Sample" />
+                        <img src="img/Social Media (9).png" alt="Profile Setup Sample" />
+                        <div class="overlay">
+                            <i class="fas fa-user-check"></i>
+                            <h4>Profile Optimization</h4>
+                            <p>Complete profile setup and branding</p>
+                            <div class="tags"><span>Setup</span><span>Branding</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
-                        <img src="img/Social media 3.jpeg" alt="Account Creation" />
+                        <img src="img/Social Media (6).png" alt="Account Creation" />
+                        <div class="overlay">
+                            <i class="fas fa-plus-circle"></i>
+                            <h4>Account Creation</h4>
+                            <p>Professional account setup on all platforms</p>
+                            <div class="tags"><span>Setup</span><span>Platforms</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
-                        <img src="img/Social media 4.jpeg" alt="Branding Setup" />
+                        <img src="img/Social Media (7).png" alt="Branding Setup" />
+                        <div class="overlay">
+                            <i class="fas fa-palette"></i>
+                            <h4>Branding Setup</h4>
+                            <p>Complete visual identity and branding</p>
+                            <div class="tags"><span>Branding</span><span>Identity</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- ===== SECTION 2: SOCIAL MANAGEMENT ===== -->
-
+            <div class="service-portfolio-section">
+                <div class="service-portfolio-header">
+                    <div class="service-icon-large"><i class="fas fa-calendar-check"></i></div>
+                    <div class="service-title-group">
+                        <h3>Social Media Management</h3>
+                        <p>Daily posting, content scheduling, and active audience engagement</p>
+                    </div>
+                </div>
                 <div class="portfolio-sample-grid">
                     <div class="portfolio-sample-item">
-                        <img src="img/Social media 5.jpeg" alt="Content Calendar" />
-                    
+                        <img src="img/Social Media (8).png" alt="Content Calendar" />
+                        <div class="overlay">
+                            <i class="fas fa-calendar-alt"></i>
+                            <h4>Content Calendar</h4>
+                            <p>Strategic content scheduling</p>
+                            <div class="tags"><span>Management</span><span>Scheduling</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
                         <img src="img/Social media 6.jpeg" alt="Engagement Analytics" />
-                    
-                    </div>
-                    <div class="portfolio-sample-item">
-                        <img src="img/Social media (10).jpeg" alt="Community Management" />
+                        <div class="overlay">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Engagement Analytics</h4>
+                            <p>Audience engagement tracking</p>
+                            <div class="tags"><span>Analytics</span><span>Engagement</span></div>
                         </div>
                     </div>
-                        
-            
+                    <div class="portfolio-sample-item">
+                        <img src="img/Social Media (10).png" alt="Community Management" />
+                        <div class="overlay">
+                            <i class="fas fa-users"></i>
+                            <h4>Community Management</h4>
+                            <p>Building engaged communities</p>
+                            <div class="tags"><span>Community</span><span>Growth</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- ===== SECTION 3: CONTENT CREATION ===== -->
             <div class="service-portfolio-section">
                 <div class="service-portfolio-header">
@@ -393,13 +434,31 @@
                 </div>
                 <div class="portfolio-sample-grid">
                     <div class="portfolio-sample-item">
-                        <img src="img/Social media (9).jpeg" alt="Captions" />
+                        <img src="img/Social media 9.jpeg" alt="Captions" />
+                        <div class="overlay">
+                            <i class="fas fa-quote-right"></i>
+                            <h4>Captions</h4>
+                            <p>Engaging captions that convert</p>
+                            <div class="tags"><span>Copywriting</span><span>Captions</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
                         <img src="img/Social media 2.jpeg" alt="Long-form Content" />
+                        <div class="overlay">
+                            <i class="fas fa-file-alt"></i>
+                            <h4>Long-form Content</h4>
+                            <p>Blog posts and articles</p>
+                            <div class="tags"><span>Blog</span><span>Articles</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
                         <img src="img/Social media 3.jpeg" alt="Story Content" />
+                        <div class="overlay">
+                            <i class="fas fa-story"></i>
+                            <h4>Story Content</h4>
+                            <p>Compelling story content</p>
+                            <div class="tags"><span>Stories</span><span>Engagement</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -415,13 +474,31 @@
                 </div>
                 <div class="portfolio-sample-grid">
                     <div class="portfolio-sample-item">
-                        <img src="img/Social media (8)).jpeg" alt="Post Design" />
+                        <img src="img/Social media 8.jpeg" alt="Post Design" />
+                        <div class="overlay">
+                            <i class="fas fa-image"></i>
+                            <h4>Post Design</h4>
+                            <p>High-quality social media posts</p>
+                            <div class="tags"><span>Design</span><span>Posts</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
-                        <img src="img/Social media (7).jpeg" alt="Carousel Design" />
+                        <img src="img/Social media 7.jpeg" alt="Carousel Design" />
+                        <div class="overlay">
+                            <i class="fas fa-images"></i>
+                            <h4>Carousel Design</h4>
+                            <p>Multi-slide carousels</p>
+                            <div class="tags"><span>Carousel</span><span>Engagement</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
-                        <img src="img/Social media (6).jpeg" alt="Promotional Graphics" />
+                        <img src="img/Social media 6.jpeg" alt="Promotional Graphics" />
+                        <div class="overlay">
+                            <i class="fas fa-bullhorn"></i>
+                            <h4>Promotional Graphics</h4>
+                            <p>Promotional materials</p>
+                            <div class="tags"><span>Promotion</span><span>Design</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -438,15 +515,30 @@
                 <div class="portfolio-sample-grid">
                     <div class="portfolio-sample-item">
                         <img src="img/Social media 7.jpeg" alt="Author Platform" />
-                        
+                        <div class="overlay">
+                            <i class="fas fa-platform"></i>
+                            <h4>Author Platform</h4>
+                            <p>Complete author platform development</p>
+                            <div class="tags"><span>Platform</span><span>Branding</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
                         <img src="img/Social media 8.jpeg" alt="Book Promotion" />
-                        
+                        <div class="overlay">
+                            <i class="fas fa-book-open"></i>
+                            <h4>Book Promotion</h4>
+                            <p>Book launch and promotion strategies</p>
+                            <div class="tags"><span>Promotion</span><span>Book Launch</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
                         <img src="img/Social media 2.jpeg" alt="Reader Engagement" />
-                        
+                        <div class="overlay">
+                            <i class="fas fa-users"></i>
+                            <h4>Reader Engagement</h4>
+                            <p>Engaging readers and building community</p>
+                            <div class="tags"><span>Engagement</span><span>Readers</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -462,28 +554,58 @@
                 </div>
                 <div class="portfolio-sample-grid">
                     <div class="portfolio-sample-item">
-                        <img src="img/campaign (1).jpeg" alt="Email Campaign 1" />
-                       
+                        <img src="img/Campaign (1).png" alt="Email Campaign 1" />
+                        <div class="overlay">
+                            <i class="fas fa-envelope-open"></i>
+                            <h4>Newsletter Campaign</h4>
+                            <p>Engaging newsletter design and content</p>
+                            <div class="tags"><span>Email</span><span>Newsletter</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
-                        <img src="img/campaign (2).jpeg" alt="Email Campaign 2" />
-                        
+                        <img src="img/Campaign (2).png" alt="Email Campaign 2" />
+                        <div class="overlay">
+                            <i class="fas fa-chart-simple"></i>
+                            <h4>Campaign Analytics</h4>
+                            <p>Data-driven email performance tracking</p>
+                            <div class="tags"><span>Analytics</span><span>Performance</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
-                        <img src="img/campaign (3).jpeg" alt="Email Campaign 3" />
-                        
+                        <img src="img/Campaign (3).png" alt="Email Campaign 3" />
+                        <div class="overlay">
+                            <i class="fas fa-bullhorn"></i>
+                            <h4>Book Sale Campaign</h4>
+                            <p>High-converting book promotion emails</p>
+                            <div class="tags"><span>Sales</span><span>Promotion</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
-                        <img src="img/campaign (4).jpeg" alt="Email Campaign 4" />
-                        
+                        <img src="img/Campaign (4).png" alt="Email Campaign 4" />
+                        <div class="overlay">
+                            <i class="fas fa-calendar-check"></i>
+                            <h4>New Year Campaign</h4>
+                            <p>Seasonal email marketing campaigns</p>
+                            <div class="tags"><span>Seasonal</span><span>Campaign</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
-                        <img src="img/campaign (5).jpeg" alt="Email Campaign 5" />
-                        
+                        <img src="img/Campaign (5).png" alt="Email Campaign 5" />
+                        <div class="overlay">
+                            <i class="fas fa-rocket"></i>
+                            <h4>Launch Campaign</h4>
+                            <p>Book launch email sequences</p>
+                            <div class="tags"><span>Launch</span><span>Email</span></div>
+                        </div>
                     </div>
                     <div class="portfolio-sample-item">
                         <img src="img/campaign (6).jpeg" alt="Email Campaign 6" />
-                        
+                        <div class="overlay">
+                            <i class="fas fa-star"></i>
+                            <h4>Exclusive Release</h4>
+                            <p>Premium email content for subscribers</p>
+                            <div class="tags"><span>Exclusive</span><span>Premium</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -553,7 +675,7 @@
                         <p>Sample narration with professional quality</p>
                         <div class="audio-player">
                             <audio controls>
-                                <source src="" type="audio/mpeg" />
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
                                 Your browser does not support the audio element.
                             </audio>
                         </div>
@@ -564,7 +686,7 @@
                         <p>Professional sound design and mastering</p>
                         <div class="audio-player">
                             <audio controls>
-                                <source src="" type="audio/mpeg" />
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg" />
                                 Your browser does not support the audio element.
                             </audio>
                         </div>
@@ -575,7 +697,7 @@
                         <p>Complete audiobook production sample</p>
                         <div class="audio-player">
                             <audio controls>
-                                <source src="" type="audio/mpeg" />
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg" />
                                 Your browser does not support the audio element.
                             </audio>
                         </div>
@@ -585,7 +707,7 @@
 
             <!-- ===== CASE STUDY ===== -->
             <div class="case-study-section">
-                <h3 style="text-align: center; color: var(--gold); font-size: 1.8rem; margin-bottom: 2rem;">Featured Case Study</h3>
+                <h3 style="text-align: center; color: var(--accent); font-size: 1.8rem; margin-bottom: 2rem;">Featured Case Study</h3>
                 <div class="case-study-grid">
                     <div class="case-study-stats">
                         <i class="fas fa-hashtag"></i>
@@ -624,7 +746,7 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <div class="logo">
-                        <span class="white">Christabel</span><span class="gold">Israel</span>
+                        <span class="white">Christabel</span><span class="accent">Israel</span>
                     </div>
                     <p>Social media management &amp; author branding. Elevate your platform.</p>
                 </div>
