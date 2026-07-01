@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christabel Israel · Social Media Management</title>
+    <link rel="icon" type="image/png" href="img/Favicon.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header id="header">
+        <div class="container nav">
+            <div class="logo">
+                <span class="white">Christabel</span><span class="gold">Israel</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="btn btn-primary btn-sm">Book a Consult</a></li>
+            </ul>
+            <button class="mobile-toggle" aria-label="Menu" onclick="toggleMobileNav()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge">✦ Social Media Specialist</span>
+                <h1>
+                    Build a <span class="highlight">Powerful</span><br />
+                    Social Presence
+                </h1>
+                <p>
+                    Helping authors, entrepreneurs, and personal brands grow online through strategy,
+                    content creation, design, and full-service social media management.
+                </p>
+                <div class="hero-btns">
+                    <a href="contact.html" class="btn btn-primary">Book a Consultation</a>
+                    <a href="services.html" class="btn btn-outline">View Services</a>
+                </div>
+                <div class="hero-stats">
+                    <div><h4>120+</h4><p>Authors Served</p></div>
+                    <div><h4>4.9★</h4><p>Client Rating</p></div>
+                    <div><h4>2M+</h4><p>Impressions</p></div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                        <img src="img/Christabel.png" alt="Christabel Israel" />
+                </div>
+                <div class="floating-card"><i class="fas fa-star"></i> 4.9 ★ Rating</div>
+                <div class="floating-card"><i class="fas fa-users"></i> 60+ Authors</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES PREVIEW ===== -->
+    <section style="background: var(--navy-light); padding: 4rem 0;">
+        <div class="container">
+            <div class="section-title">
+                <h2>What We <span class="gold">Offer</span></h2>
+                <p>Complete social media solutions for authors and brands.</p>
+            </div>
+            <div class="services-grid" style="grid-template-columns: repeat(3, 1fr);">
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-user-plus"></i></div>
+                    <h3>Social Setup</h3>
+                    <p>Account creation, profile optimization, and complete branding setup.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-calendar-check"></i></div>
+                    <h3>Social Management</h3>
+                    <p>Daily posting, content scheduling, and active audience engagement.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-pen-fancy"></i></div>
+                    <h3>Content Creation</h3>
+                    <p>Captions, long-form content, story content, and professional copywriting.</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2.5rem;">
+                <a href="services.html" class="btn btn-primary">View All Services →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PORTFOLIO PREVIEW ===== -->
+    <section style="padding: 4rem 0;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Portfolio <span class="gold">Highlights</span></h2>
+                <p>Real work, real results — for authors and brands.</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=400&h=300&fit=crop&crop=center&auto=format" alt="Carousel Design" />
+                    <div class="overlay">
+                        <i class="fas fa-images"></i>
+                        <h4>Carousel Design</h4>
+                        <p>Engaging multi-slide content</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=400&h=300&fit=crop&crop=center&auto=format" alt="Before & After" />
+                    <div class="overlay">
+                        <i class="fas fa-magic"></i>
+                        <h4>Before &amp; After</h4>
+                        <p>Account transformations</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop&crop=center&auto=format" alt="Author Campaigns" />
+                    <div class="overlay">
+                        <i class="fas fa-book-open"></i>
+                        <h4>Author Campaigns</h4>
+                        <p>Book launch strategies</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2.5rem;">
+                <a href="portfolio.html" class="btn btn-primary">View Full Portfolio →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Grow Your Author Brand?</h2>
+            <p>Book a discovery call and let's build a social strategy that sells more books.</p>
+            <a href="contact.html" class="btn">Book a Consultation <i class="fas fa-arrow-right" style="margin-left: 0.5rem;"></i></a>
+            <p style="margin-top: 1rem; font-size: 0.8rem; color: rgba(10,22,40,0.5);">30-minute session · Calendly integration</p>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="white">Christabel</span><span class="gold">Israel</span>
+                    </div>
+                    <p>Social media management &amp; author branding. Elevate your platform.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Pages</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="portfolio.html">Portfolio</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Christabel Israel Agency · All rights reserved · Built with ♥ for authors</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
